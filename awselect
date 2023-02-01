@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+selected_profile=`awsume -l | awk '(NR>4)' | awk '{print $1}' | fzf`
+if [ ! -z "$selected_profile" ]
+then
+    source awsume $selected_profile
+fi
+
