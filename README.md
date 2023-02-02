@@ -1,4 +1,4 @@
-# AWSUME_FZF [AKA: AWSELECT]
+# awsume-fzf [AKA: awselect]
 
 FuziFind on your `awsume -l` list and select one of yout AWS profiles.
 
